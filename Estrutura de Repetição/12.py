@@ -8,5 +8,4 @@ Tabuada de 5:
 
 numero = int(input("Digite um número inteiro de 1 a 10: "))
 for i in range(1, 10):
-    '''print("Tabuada do",numero,':')'''
-    print("Tabuada do 3:",numero, "x" ,i ,"=", numero * i )
+    print(numero, "x" ,i ,"=", numero * i )
