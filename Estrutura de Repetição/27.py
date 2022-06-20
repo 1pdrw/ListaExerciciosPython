@@ -5,8 +5,9 @@ turmas = int(input("Digite quantas turmas tem: "))
 
 for i in range(turmas):
     while True:
-        alunos = int(input(f"Digite quantos alunos tem na turma {i + 1}: "))
+        alunos = int(input("Digite quantos alunos tem nas turmas: "))
         if alunos > 40:
             break
-    media = ((media * i) + alunos) / (i + 1)
-print("A média de alunos por turma é {media}")
+    media = ((media * (i - 1)) + alunos) / i
+print("A média de alunos por turma é ")
+

@@ -6,7 +6,7 @@ Sexo: 'f' ou 'm';
 Estado Civil: 's', 'c', 'v', 'd';'''
 
 nome = str(input("Nome: "))
-while (len(nome.lower()) <=   3 ):
+while (len(nome) <=   3 ):
 	nome = str(input("Nome: "))
 
 idade = int(input("Idade: "))
@@ -20,14 +20,13 @@ while (salario < 0 ):
 	
 
 sexo = str(input("Sexo: (M/F) "))
-while  sexo.lower() != "f" and sexo != "m" :
+while  sexo != "f" and sexo != "m" :
 	sexo = str(input("Sexo: (M/F) "))
 	
 
 estado_civil = str(input("Estado Civil: "))
 while (estado_civil !=  "s" and estado_civil !=  "c" and estado_civil !=  "v" and estado_civil !=  "d" ):
 	estado_civil = str(input("Estado Civil: "))     
-
 
 print('Nome:',nome)
 print('Idade:',idade)
