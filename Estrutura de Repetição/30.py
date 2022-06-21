@@ -15,3 +15,4 @@ precopao = float(input('Qual valor do pão indivualmente? '))
 while (paes < 51):
     print(paes,'pães dá um total de',(paes * precopao),'reais.')
     paes += 1
+
