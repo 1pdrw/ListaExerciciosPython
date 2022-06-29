@@ -10,7 +10,7 @@ Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 5 X 6 = 30
 5 X 7 = 35
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.'''
-
+ini = 0
 tab = int(input('Digite um número inteiro: '))
 ini = int(input('Começar por: '))
 term = int(input('Terminar em: '))
@@ -18,3 +18,4 @@ term = int(input('Terminar em: '))
 for i in range (ini,term + 1):
     print(tab,'x',ini,'=',(tab * ini))
     ini +=1
+
